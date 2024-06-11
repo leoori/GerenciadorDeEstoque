@@ -1,0 +1,5 @@
+1,Camiseta Branca,Vestimenta,Generica,25.00,50,Camiseta branca simples,Corredor 1
+2,Camiseta Preta,Vestimenta,Generica,25.00,35,Camiseta preta simples,Corredor 1
+3,Shorts,Vestimenta,Generica,40.00,30,Shorts jeans,Corredor 2
+4,Calca,Vestimenta,Generica,80.00,5,Calca jeans,Corredor 2
+5,Meias,Vestimenta,Generica,5.00,50,Meias simples,Corredor 3

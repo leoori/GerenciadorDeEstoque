@@ -1,0 +1,5 @@
+1,Camiseta Branca,entrada,50
+2,Camiseta Preta,entrada,35
+3,Shorts,entrada,30
+4,Calca,entrada,5
+5,Meias,entrada,50
