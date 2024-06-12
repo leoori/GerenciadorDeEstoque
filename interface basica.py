@@ -89,8 +89,15 @@ class GerenciadorEstoqueGUI:
         self.buscar_id_entry = ttk.Entry(self.buscar_produto_frame)
         self.buscar_id_entry.grid(row=0, column=1, padx=5, pady=5)
 
-        self.buscar_produto_button = ttk.Button(self.buscar_produto_frame, text="Buscar Produto", command=self.buscar_produto)
-        self.buscar_produto_button.grid(row=1, columnspan=2, pady=10)
+        self.buscar_produto_button = ttk.Button(self.buscar_produto_frame, text="Buscar Produto por ID", command=self.buscar_produto)
+        self.buscar_produto_button.grid(row=1, columnspan=2, pady=5)
+
+        ttk.Label(self.buscar_produto_frame, text="Nome:").grid(row=2, column=0, padx=5, pady=5, sticky="e")
+        self.buscar_nome_entry = ttk.Entry(self.buscar_produto_frame)
+        self.buscar_nome_entry.grid(row=2, column=1, padx=5, pady=5)
+
+        self.buscar_produto_nome_button = ttk.Button(self.buscar_produto_frame, text="Buscar Produto por Nome", command=self.buscar_produto_por_nome)
+        self.buscar_produto_nome_button.grid(row=3, columnspan=2, pady=5)
 
         # Exibir Estoque
         self.exibir_estoque_frame = ttk.LabelFrame(self.operacoes_frame, text="Exibir Estoque")
@@ -250,4 +257,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = GerenciadorEstoqueGUI(root)
     root.mainloop()
+
 
