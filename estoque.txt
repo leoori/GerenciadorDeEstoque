@@ -2,4 +2,8 @@
 2,Camiseta Preta,Vestimenta,Generica,25.00,35,Camiseta preta simples,Corredor 1
 3,Shorts,Vestimenta,Generica,40.00,30,Shorts jeans,Corredor 2
 4,Calca,Vestimenta,Generica,80.00,5,Calca jeans,Corredor 2
-5,Meias,Vestimenta,Generica,5.00,30,Meias simples,Corredor 3
+5,Meias,Vestimenta,Generica,5.00,25,Meias simples,Corredor 3
+6,Tenis,Vestimenta,Generica,100.00,8,Tenis comum,Corredor 4
+11,Cueca,Vestimenta,Generica,15.00,35,Cueca comum,Corredor 7
+13,Blusa,Vestimenta,Generica,80.00,15,Blusa comum,Corredor 5
+15,Casaco,Vestimenta,Generica,200.00,4,Casasco de Pele,Corredor 6
