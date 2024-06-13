@@ -35,10 +35,18 @@ class GerenciadorEstoque:
 
     def buscar_produto(self, id):
         node = self.arvore.buscar(id)
+        produto = node.produto
         if node is None:
             print("Produto não encontrado.")
         else:
-            print(f"Produto: {node.produto.nome}, Quantidade: {node.produto.quantidade}")
+            print(f"ID: {produto.id}\n"
+            f"Nome: {produto.nome}\n"
+            f"Categoria: {produto.categoria}\n"
+            f"Marca: {produto.marca}\n"
+            f"Preço: {produto.preco}\n"
+            f"Quantidade: {produto.quantidade}\n"
+            f"Descrição: {produto.descricao}\n"
+            f"Local: {produto.local}")
 
     def mostrar_estoque(self):
         produtos = self.arvore.percorrer_em_ordem()
@@ -81,7 +89,14 @@ class GerenciadorEstoque:
     def buscar_produto_por_nome(self, nome):
         for produto in self.arvore.percorrer_em_ordem():
             if produto.nome.lower() == nome.lower():  # Ignora maiúsculas/minúsculas
-                print(f"ID: {produto.id}, Nome: {produto.nome}, Quantidade: {produto.quantidade}")
+                print(f"ID: {produto.id}\n"
+            f"Nome: {produto.nome}\n"
+            f"Categoria: {produto.categoria}\n"
+            f"Marca: {produto.marca}\n"
+            f"Preço: {produto.preco}\n"
+            f"Quantidade: {produto.quantidade}\n"
+            f"Descrição: {produto.descricao}\n"
+            f"Local: {produto.local}")
                 return
         print("Produto não encontrado.")
 
